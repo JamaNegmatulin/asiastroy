@@ -408,7 +408,8 @@ img {
 .rab h4:after {
   content: "";
   display: block;
-  width: 350px;
+  max-width: 350px;
+  width: 100%;
   height: 1px;
   background-color: #ff6423;
   margin-top: 12px;
@@ -547,7 +548,8 @@ img {
   content: "";
   display: block;
   height: 2px;
-  width: 350px;
+  max-width: 350px;
+  width: 100%;
   background-color: #000000;
 }
 
@@ -867,7 +869,7 @@ form input {
   margin-right: 5px;
 }
 
-.top_footer_t li{
+.top_footer_t li {
   list-style: none;
   text-align: center;
   margin-bottom: 20px;
@@ -879,12 +881,12 @@ form input {
   color: #000000;
 }
 
-.nav_li_footer a{
+.nav_li_footer a {
   text-decoration: none;
   color: #ff6423;
 }
 
-.nav_li_footer a:hover{
+.nav_li_footer a:hover {
   text-decoration: none;
   color: #ff6423;
 }
@@ -932,7 +934,7 @@ form input {
     justify-content: center;
   }
   .pre h4 {
-    font-size: 40px;
+    font-size: 36px;
     line-height: 50px;
   }
   .cards__pre {
@@ -945,7 +947,7 @@ form input {
     width: 100%;
   }
   .rab h4 {
-    font-size: 40px;
+    font-size: 36px;
     line-height: 50px;
   }
   .cards_rab {
@@ -964,7 +966,7 @@ form input {
     width: 100%;
   }
   .gov h4 {
-    font-size: 40px;
+    font-size: 36px;
     line-height: 50px;
   }
   .container__form {
@@ -1015,7 +1017,7 @@ form input {
   .slider2 .slick-arrow,
   .slider3 .slick-arrow,
   .slider4 .slick-arrow {
-    display: none!important;
+    display: none !important;
   }
   .slider,
   .slider1,
@@ -1023,5 +1025,24 @@ form input {
   .slider3,
   .slider4 {
     display: block;
+  }
+
+  .kom {
+    padding: 30px 0;
+  }
+  .card_del {
+    margin-top: 20px;
+  }
+
+  .cards_del {
+    gap: 10px;
+  }
+
+  .card_del h5 {
+    font-size: 18px;
+  }
+
+  .pre {
+    padding: 25px 0;
   }
 }
